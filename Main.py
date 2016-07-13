@@ -753,15 +753,52 @@ def find_penny_comment(flat_comments, processing, mods):
                         for x in finalresponse:
                             string = string + x
                             string = string + " \n \n"
-                        comment.reply(string)
+                        #comment.reply(string)
+                        print("'" + string + "'")
 
             db = sqlite3.connect("Processed.db")
             cursor = db.cursor()
             cursor.execute('INSERT INTO Processed VALUES (?, ?, ?, ?, ?, ?)',
                         (str(comment.id), int(comment.created_utc), str(comment.body), str(comment.author), str(replied), str(reply)))
-            db.commit()
+            #db.commit()
     return comment.id
 
+
+def get_test_comments(r):
+    return [
+        praw.objects.Comment(r, {
+            "link_id": "t3_4s8aq4",
+            "replies": "",
+            "id": "1234567",
+            "author": "AuthorName",
+            "body": "Pennybot, hugs",
+            "created_utc": 1468197816.0,
+        }),
+        praw.objects.Comment(r, {
+            "link_id": "t3_4s8aq4",
+            "replies": "",
+            "id": "1234567",
+            "author": "AuthorName",
+            "body": "Pennybot, ruby\n\nPennybot, arkos",
+            "created_utc": 1468197816.0,
+        }),
+        praw.objects.Comment(r, {
+            "link_id": "t3_4s8aq4",
+            "replies": "",
+            "id": "1234567",
+            "author": "AuthorName",
+            "body": "Pennybot, lewd\n\nPennybot, cinder\n\nPennybot, automod",
+            "created_utc": 1468197816.0,
+        }),
+        praw.objects.Comment(r, {
+            "link_id": "t3_4s8aq4",
+            "replies": "",
+            "id": "1234567",
+            "author": "AuthorName",
+            "body": "You cheating bastard. \n\nOh well, I'm holding out for next week, and the next, and the next ...\n\nI'm sad now. \n\n\nPennybot, hugs!",
+            "created_utc": 1468197816.0,
+        })
+    ]
 
 while True:
     if shutdown:
@@ -781,8 +818,9 @@ while True:
 
         post_search(subreddit, subdone)
 
-        subreddit_comments = subreddit.get_comments()
-        flat_comments = praw.helpers.flatten_tree(subreddit_comments)
+        #subreddit_comments = subreddit.get_comments()
+        #flat_comments = praw.helpers.flatten_tree(subreddit_comments)
+        flat_comments = get_test_comments(r)
 
         already_done = already_processed_comments()
 
