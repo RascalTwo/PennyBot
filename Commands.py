@@ -8,10 +8,10 @@ def penny_commands(trigger):
         return "I'm working!"
 
     elif trigger.startswith("roosterteeth"):
-        return " You mean Cock Bite Studios?"
+        return "You mean Cock Bite Studios?"
 
     elif trigger.startswith("approve"):
-        return "Salutations! \n You appear to have made a quality post! PennybotV2 stamps it with her [seal of approval!](http://i.imgur.com/bavrX6d.png)"
+        return "Salutations! \n \n You appear to have made a quality post! PennybotV2 stamps it with her [seal of approval!](http://i.imgur.com/bavrX6d.png)"
 
     elif trigger.startswith("hugs"):
         return "[All friends need hugs!](http://i.imgur.com/VLUQs8u.gifv)"
@@ -47,11 +47,11 @@ def penny_commands(trigger):
         return "[rekt indeed](http://fav.me/d9vnpbv)"
 
     elif trigger.startswith("entire team"):
-        return "#**ENTIRE**\n#**TEAM**"
+        return "#**ENTIRE**\n\n#**TEAM**"
 
     elif trigger.startswith("what is love"):
         return choice([
-            "Trust, unconditionaly. \n \n I love Ruby.... \n \n Can someone tell her that I miss her? ",
+            "Trust, unconditionally. \n \n I love Ruby.... \n \n Can someone tell her that I miss her? ",
             "Baby don't hurt me!"
         ])
 
@@ -80,7 +80,7 @@ def penny_commands(trigger):
         return "[I can dance!](http://gfycat.com/SlowEnormousCat)"
 
     elif trigger.startswith("pervet"):
-        return "I can't find any cake in Remenant!"
+        return "I can't find any cake in Remnant!"
 
     elif trigger.startswith("lewd"):
         return choice([
@@ -113,7 +113,7 @@ def penny_commands(trigger):
         return str("Time Until Volume 4 is: " + str(mon) + " Months " + str(day) + " Days " + str(hr) + " Hours " + str(mn) + " Minutes " + str(sec) + " Seconds. I can't wait!")
 
     elif trigger.startswith("help"):
-        return "I am PennyBotV2 ! A list of my public commands is [here](https://docs.google.com/spreadsheets/d/1fvRpgOCmRXX1bFxMHxRoxZUT4Mmanr0knYLhOfSYZJg/edit?usp=sharing) although I do have some secrets! \n My creator is /u/Weerdo5255 contact him if you have any questions!"
+        return "I am PennyBotV2 ! A list of my public commands is [here](https://docs.google.com/spreadsheets/d/1fvRpgOCmRXX1bFxMHxRoxZUT4Mmanr0knYLhOfSYZJg/edit?usp=sharing) although I do have some secrets! \n \n My creator is /u/Weerdo5255 contact him if you have any questions!"
 
     elif trigger.startswith("cheer"):
         return "#Yay!"
@@ -121,7 +121,7 @@ def penny_commands(trigger):
     elif trigger.startswith("selfie"):
         return "[How do I look?](http://i.imgur.com/mpbTj9S.jpg?1)"
 
-    elif trigger.startswith("ninja's of love"):
+    elif trigger.startswith("ninjas of love"):
         return "That's Blake's favorite book! She won't let me look at it. Ruby said it has Katana's!"
 
     elif trigger.startswith("silver eyes"):
@@ -131,7 +131,7 @@ def penny_commands(trigger):
         return "I have deadly strings on me!"
 
     elif trigger.startswith("update"):
-        return "My last update was on July 18th 2016 \n  I was given 45 new commands! \n My next update is not scheduled."
+        return "My last update was on July 18th 2016 \n \n I was given 45 new commands! \n \n My next update is not scheduled."
 
     elif trigger.startswith("kill"):
         return "[Attacking target!](http://fav.me/d7jdxet)"
@@ -176,7 +176,7 @@ def penny_commands(trigger):
         return "[Don't worry Ruby, ](https://youtu.be/3b1gs8KrM-M?t=9m19s)"
 
     elif trigger.startswith("jnpr"):
-        return "Jeanne d'Arc, Thor, Achilles, and Mulan. All genderbent. \n That's not a teamup anyone could have predicted."
+        return "Jeanne d'Arc, Thor, Achilles, and Mulan. All genderbent. \n \n That's not a teamup anyone could have predicted."
 
     elif trigger.startswith("gay robot"):
         return "[You following this?](https://youtu.be/7O9ZyaNCcmw?t=1m53s)"
@@ -184,14 +184,14 @@ def penny_commands(trigger):
     elif trigger.startswith("i love you"):
         return "[Awww, I love you too!](http://fav.me/d8l0n7h)"
 
-    elif trigger.startswith("disapponted"):
-        return "You have dissapointed me. That is not a good thing."
+    elif trigger.startswith("disappointed"):
+        return "You have disappointed me. That is not a good thing."
 
     elif trigger.startswith("praise the sun"):
-        return "\[T]/"
+        return "\\[T]/"
 
     elif trigger.startswith("friend"):
-        return "You called me Friend! Am I really your freind?"
+        return "You called me Friend! Am I really your friend?"
 
     elif trigger.startswith("gender bend"):
         return "[I fixed it!](http://fav.me/d6q359x)"
@@ -260,7 +260,7 @@ def penny_commands(trigger):
         return choice([
             "[It's Ruby!](http://i.imgur.com/WqmhdT8.jpg)",
             "[Am I not good enough?](http://fav.me/d9s0vqu)",
-            "[Enigizer Bunny!](http://fav.me/d9qsm0y)",
+            "[Energizer Bunny!](http://fav.me/d9qsm0y)",
             "[Blondes right?](http://i.imgur.com/myd9zHq.png)",
             "[Cute, and insane!](https://youtu.be/CUYhvPoxuas?t=7m30s)",
             "[Angry Yang, is badass!](http://i.imgur.com/5Wd7F3e.jpg)",
@@ -295,7 +295,7 @@ def penny_commands(trigger):
             "Cuteness detected! [I hope it's JNPR!](http://fav.me/d7z7dst)",
             "Cuteness detected! [I hope it's RWBY!](http://fav.me/d7kyqob)",
             "Cuteness detected! [I hope it's a cute ship!](http://i.imgur.com/OQ3HEux.jpg)",
-            "Cuteness detected! [I hope it's Sisters!](https://s-media-cache-ak0.pinimg.com/736x/e7/23/fc/e723fc7471f7a9567eead7f13597df72.jpg) \n [And more sisters!](http://66.media.tumblr.com/c244db234b0e60a0d6d36dbd50c24bf3/tumblr_o60nuvR3lI1txxou1o1_1280.jpg)"
+            "Cuteness detected! [I hope it's Sisters!](https://s-media-cache-ak0.pinimg.com/736x/e7/23/fc/e723fc7471f7a9567eead7f13597df72.jpg) \n \n [And more sisters!](http://66.media.tumblr.com/c244db234b0e60a0d6d36dbd50c24bf3/tumblr_o60nuvR3lI1txxou1o1_1280.jpg)"
         ])
 
     #Character responses
@@ -351,7 +351,7 @@ def penny_commands(trigger):
         return "She's also got the most OP weapon. How can you not love her?"
 
     elif trigger.startswith("coco"):
-        return "How does her gun work? \n Dust."
+        return "How does her gun work? \n \n Dust."
 
     elif trigger.startswith("port"):
         return "Cows don't like him for some reason."
@@ -384,7 +384,7 @@ def penny_commands(trigger):
         return "He takes some getting used too."
 
     elif trigger.startswith("glynda"):
-        return "She has a crop, and she's a teacher! \n She also fixes everything."
+        return "She has a crop, and she's a teacher! \n \n She also fixes everything."
 
     elif trigger.startswith("tex"):
         return "She's a badass."
@@ -399,7 +399,7 @@ def penny_commands(trigger):
         return "[She reminds me of something.](https://youtu.be/QH2-TGUlwu4)"
 
     elif trigger.startswith("neo"):
-        return "..... \n I want ice cream."
+        return "..... \n \n I want ice cream."
 
     elif trigger.startswith("cardin"):
         return "He's a jerk!"
@@ -472,7 +472,7 @@ def penny_commands(trigger):
         return "A good guy! But evil."
 
     elif trigger.startswith("raven"):
-        return "She's got an intresting way of looking at the world."
+        return "She's got an interesting way of looking at the world."
 
     elif trigger.startswith("lopez"):
         return "[Lopez the Heavy you mean? He knows how to treat a robot woman!](https://youtu.be/u5NZiy5Gkhg?t=4m29s)"
@@ -535,7 +535,7 @@ def penny_commands(trigger):
         ])
 
     elif trigger.startswith("enabler"):
-        return "[No](http://65.media.tumblr.com/b6c7745211872cd227db9b6188aac928/tumblr_inline_naaj8hywWE1rltz3k.png) \n ^^^maybe"
+        return "[No](http://65.media.tumblr.com/b6c7745211872cd227db9b6188aac928/tumblr_inline_naaj8hywWE1rltz3k.png) \n \n ^^^maybe"
 
     elif trigger.startswith("arkos"):
         return "Sometimes the brightest loves burn the shortest... ^^^Cinder ^^^is ^^^evil!"
@@ -555,7 +555,7 @@ def penny_commands(trigger):
     elif trigger.startswith("white knight"):
         return "Weiss does not seem to like him, besides he's taken!"
 
-    elif trigger.startswith("frosen steel"):
+    elif trigger.startswith("frozen steel"):
         return "[It's a Ruby sandwich!](http://65.media.tumblr.com/d8d679901bb89d1bced1018b5f613c0b/tumblr_o5bwpqVF2v1ungotoo1_1280.jpg)"
 
     elif trigger.startswith("fallen petals"):
@@ -621,7 +621,7 @@ def penny_commands(trigger):
             "[In their prime.](https://pbs.twimg.com/media/CV33NB0VAAAcHLs.png)",
             "[Nora supports it!](http://i.imgur.com/OQ3HEux.jpg)",
             "[Pyrrha carrying the team.](http://fav.me/d6iyzs5)",
-            "[Can we remeber the laughter?](http://i.imgur.com/lKVR6Vk.jpg)",
+            "[Can we remember the laughter?](http://i.imgur.com/lKVR6Vk.jpg)",
             "[Hugs!](http://i.imgur.com/NJfQ5LB.jpg)",
             "[They're so happy together!](http://66.media.tumblr.com/3a184662b6ccb79821f4d7ac5883bbcd/tumblr_o00q63J9Ky1r4vgpvo1_1280.jpg)"
         ])
